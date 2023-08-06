@@ -5,7 +5,7 @@ import "./navbar.css"
 export default function Navbar() {
   return (
    <nav className='navbar'>
-        <h1>Gotria Library</h1>
+        <Link style={{ textDecoration: 'none', color: 'inherit' }}to={`/`}><h1>Gotria Library</h1></Link>
         <section>
             <Link to={`/`}>All</Link>
             <Link to={`/genre/horror`}>Horror</Link>

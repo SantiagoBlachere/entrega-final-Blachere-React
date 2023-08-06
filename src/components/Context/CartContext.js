@@ -38,7 +38,8 @@ export const CartProvider = ({ children }) => {
     })
     
     const total = totalQuantity.reduce( (acc, current) => acc + current, 0)
-    const totalPrice = totalPrices.reduce ( (acc, current) => acc + current, 0)
+    const totalNotRounded = totalPrices.reduce ( (acc, current) => acc + current, 0)
+    const totalPrice = totalNotRounded.toFixed(2);
     
    
     return (

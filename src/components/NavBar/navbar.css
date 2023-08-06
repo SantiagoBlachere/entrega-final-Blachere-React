@@ -8,6 +8,9 @@
     font-family: 'Gothic', sans-serif;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   }
+  .title a{
+    text-decoration: none;
+  }
   
   .navbar h1 {
     margin: 0;
