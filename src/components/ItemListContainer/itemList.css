@@ -1,0 +1,59 @@
+.containerCards {
+  display:flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+    background-color: #222;
+    border: 2px solid #333;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+    
+    
+  }
+
+  .card div {
+    margin-bottom: 10px;
+  }
+
+  .card img {
+    max-width: 100%;
+    border-radius: 4px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .item-counter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .item-counter button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    outline: none;
+  }
+
+  .item-counter span {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .card a {
+    text-decoration: none; 
+    color: #fff;
+  }
+  .card a:hover {
+    color: #d9d9d9;
+
+  }
